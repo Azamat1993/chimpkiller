@@ -1,6 +1,7 @@
 <?php
 require_once('helpers/setsession.php');
 
+
 if(!isset($_SESSION['user_id'])){
 	header('Location: login.php');
 	exit();
