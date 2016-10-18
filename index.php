@@ -1,6 +1,7 @@
 <?php
 require_once 'config/app.php';
 
+
 Guard::protect(true,'login');
 
 $db=DB::getInstance();
